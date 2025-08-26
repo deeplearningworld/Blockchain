@@ -1,0 +1,46 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f0f2f5;
+    color: #1c1e21;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.App {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px 40px;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+}
+
+h1 { color: #0d8de5; }
+.connect-button, .vote-button {
+    background-color: #0d8de5;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    transition: background-color 0.2s;
+}
+.connect-button:hover, .vote-button:hover { background-color: #0b78c2; }
+.candidate-list { list-style: none; padding: 0; margin-top: 20px; }
+.candidate-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+.candidate-name { font-size: 18px; }
+.vote-count { font-weight: bold; color: #606770; }
+.status { margin-top: 20px; font-style: italic; color: #606770; }
