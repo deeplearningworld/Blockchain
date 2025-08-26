@@ -1,7 +1,7 @@
-###Decentralized Voting System (DApp)###
+# Decentralized Voting System (DApp)
 This project is a complete decentralized application (DApp) for voting, built on the Ethereum blockchain. It features a smart contract backend written in Solidity and a responsive frontend built with React. Users can connect their MetaMask wallet to interact with the application, view candidates, and cast their votes securely and transparently.
 
-Tech Stack:
+# Tech Stack:
 
 1.Solidity: For writing the smart contract.
 
@@ -13,7 +13,7 @@ Tech Stack:
 
 5.MetaMask: As the wallet to connect to the DApp and sign transactions.
 
-#Project Structure#
+# Project Structure
 
 decentralized-voting-dapp/
 ├── hardhat/                  # Hardhat project for the smart contract
@@ -31,7 +31,7 @@ decentralized-voting-dapp/
 └── README.md
 
 
-###How to Run This Project###
+# How to Run This Project
 
 Prerequisites:
 
