@@ -72,15 +72,15 @@ cd ..
 # Install frontend dependencies
 npm install
 
-# IMPORTANT: Copy the contract artifact (ABI)
+IMPORTANT: Copy the contract artifact (ABI)
 # Create the artifacts directory in src
 mkdir -p src/artifacts
 # Copy the JSON file from the hardhat project
 cp hardhat/artifacts/contracts/Voting.sol/Voting.json src/artifacts/
 
-# IMPORTANT: Update the contract address
-# Open `src/App.js` and paste the copied contract address
-# into the `contractAddress` variable.
+IMPORTANT: Update the contract address
+Open `src/App.js` and paste the copied contract address
+into the `contractAddress` variable.
 
 Step 3: Run the Frontend Application
 
